@@ -11,18 +11,19 @@ let path = require("path");
 const server = http.createServer(app);
 const io = new Server(server);
 app.get("/", (req, res) => {
-  let filename = "index.html";
-  let options = {
-    root: path.join(__dirname),
-  };
-  console.log(options);
-  res.sendFile(filename, options, (err) => {
-    if (err) {
-      console.log(err.message);
-    } else {
-      console.log("sent", filename);
-    }
-  });
+  res.send("hello world");
+  // let filename = "index.html";
+  // let options = {
+  //   root: path.join(__dirname),
+  // };
+  // console.log(options);
+  // res.sendFile(filename, options, (err) => {
+  //   if (err) {
+  //     console.log(err.message);
+  //   } else {
+  //     console.log("sent", filename);
+  //   }
+  // });
 });
 
 // const io = require("socket.io")(8000);
