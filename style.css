@@ -1,0 +1,112 @@
+.header_comp{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin:auto;
+    position: relative;
+    height: max-content;
+}
+
+.header_comp>img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top:-20;
+    left: -20;
+   
+}
+.message{
+    /* margin-bottom: 5px; */
+    width: 40%;
+    
+    font-size: 15px;
+    text-align: start;
+    padding:10px;
+    position: relative;
+    overflow-wrap: break-word;
+   
+    
+}
+.left{
+    float: left;
+    clear: both;
+    
+    /* border: 1px solid black; */
+}
+.right{
+    float: right;
+    
+    clear: both;
+    /* margin-bottom: 5px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    /* border:1px solid black; */
+   
+}
+.header_comp>h2{
+    position:absolute;
+    top:0;
+   right:0;
+    font-size: 20px;
+    font-family:fantasy
+}
+.messages_cont{
+height: 77vh;
+width: 100%;
+margin: auto;;
+position: relative;
+padding: 10px;
+top:70px;
+/* border:1px solid red; */
+overflow-y: auto;
+}
+.name_h4{
+ background-color: white;
+ 
+ position: absolute;
+ top:-10;
+ border-radius: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.message_p{
+   background-color: rgb(181, 202, 202);
+   padding: 10px;
+   border-radius: 10px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#input_cont{
+    width: 95%;
+    position: fixed;
+    bottom: 60;
+  margin:auto;
+   
+    /* border:1px solid blue; */
+  
+}
+#input_text{
+    width: 85%;
+    font-size: 17px;
+    
+    height: 55px;
+    border: none;
+    outline: none;
+
+    position:absolute;
+    top:5;
+  
+    padding: 10px;
+    background:transparent;
+    background-color: rgb(212, 212, 204);
+    border-radius: 10px;
+}
+#send_button{
+    position: absolute;
+    right: 5;
+    
+   
+    font-size: 30px;
+    position:absolute;
+    top:20
+}
